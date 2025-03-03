@@ -1,0 +1,180 @@
+/* ESTILO CABEÇALHO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #000;
+  height: 100vh;
+}
+.img-logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 1px solid #004bcc;
+    border-radius: 5px;
+    padding: 4.5px;
+    width: 190px;
+    
+}
+.interface {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #004bcc;
+  transition: background-color 300ms;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+h2.titulo{
+  color:#ffffff;
+  font-size: 38px;
+  text-align: center;
+  padding: 40px 4%;
+  position: relative;
+  left: 0%;
+  top: 250px;
+
+  
+}
+h2.titulo span{
+  color: #004bcc;
+}
+
+/* ESTILO CABEÇALHO */
+
+header {
+  padding: 40px 4%;
+}
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #dbdbdb;
+  text-decoration: none;
+  display: inline-block;
+}
+header a:hover {
+  color: #004bcc;
+  transform: scale(1.25);
+  transition: 0.2s;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+
+header .btn-contato button :hover {
+  box-shadow: 0px 0px 8px #004bcc;
+  
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+  padding: 40px 4%;
+}
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  position: relative;
+  top: 150px;
+  
+}
+.topo-do-site h1 {
+  padding: 10px 4%;
+  color: #dbdbdb;
+  font-size: 34px;
+  align-items: center;
+  position: relative;
+  width: 60%;
+  line-height: 40px;
+  
+}
+.topo-do-site h1 span{
+  color: #004bcc;
+  transform: scale(1.25);
+  transition: 0.2s;
+  
+}
+
+.img-topo-do-site{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+    color: #dbdbdb;
+    right: 400px;
+    float: right;
+    border: 1px solid #004bcc;
+    border-radius: 10px;
+    padding: 4.5px;
+    width: 360px;
+  }    
+.topo-do-site p{
+  color: #dbdbdb;
+  font-size: 14px;
+  padding: 0.005px 4%;
+  text-align: center, left;
+  width: 50%;
+  
+}
+.btn-contato{
+  padding: 25px 4%;
+}
+/* ESTILO DAS ESPECIALIDADS */
+section .especialidades{
+  padding: 60px 4%;
+  align-items: end;
+
+
+}
+.Especialidades-box{
+  color:#dbdbdb;
+  position: relative;
+  top: 250px;
+  padding:  25px;
+  border: 2px solid #004bcc;
+  border-radius: 25px;
+  width: 100;
+  left: 10px;
+  margin: 5px;
+ 
+
+}
+.Especialidades-box h3{
+  text-align: center;
+  padding-left: 10px;
+
+  
+}
+.Especialidades-box p{
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  color: #004bcc;
+  
+
+}
+
+
+
+
